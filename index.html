@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3 - JavaScript Assignment</title>\
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Task 1 -->
+        <div class="card">
+            <h2>Task 1: খরচের হিসাব ক্যালকুলেটর</h2>
+
+            <input type="text" id="expenseInput" placeholder="টাকার পরিমাণ লিখুন" />
+            <button id="addExpenseBtn">Add</button>
+
+            <div class="list">
+                <h3>খরচের তালিকা:</h3>
+                <ul id="expenseList"></ul>
+            </div>
+
+            <div class="total">মোট খরচ: <span id="totalExpense">0</span> টাকা</div>
+        </div>
+
+        <!-- Task 2 -->
+        <div class="card">
+            <h2>Task 2: Book List App</h2>
+
+            <input type="text" id="bookName" placeholder="বইয়ের নাম" />
+            <input type="text" id="authorName" placeholder="লেখকের নাম" />
+            <button id="saveBookBtn">Save</button>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>বইয়ের নাম</th>
+                        <th>লেখকের নাম</th>
+                        <th>অ্যাকশন</th>
+                    </tr>
+                </thead>
+                <tbody id="bookTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
